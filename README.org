@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 1999 Marc Feeley
+#
+# SPDX-License-Identifier: LicenseRef-SRFI0
+
 * SRFI 0: Feature-based conditional expansion construct
 
 ** by Marc Feeley
