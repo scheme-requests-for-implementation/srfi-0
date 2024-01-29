@@ -1,6 +1,10 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<!DOCTYPE HTML>
 <html>
   <head>
+<!--
+SPDX-FileCopyrightText: 2016 Marc Feeley
+SPDX-License-Identifier: MIT
+-->
     <meta charset="utf-8" />
     <title>SRFI 0: Feature-based conditional expansion construct</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,7 +47,6 @@ that there will be two main classes of features:
 <li>sets of value and syntax bindings</li>
 <li>reader syntax extensions</li>
 </ul>
-</p>
 
 <p>
 ("Reader syntax" refers to aspects of the syntax described by the
@@ -166,7 +169,6 @@ Syntax:
 &lt;feature identifier&gt;
     --&gt; a symbol which is the name or alias of a SRFI
 </pre>
-</p>
 
 <p>
 The <code>cond-expand</code> form tests for the existence of
@@ -257,7 +259,6 @@ features are built-in (here we assume <code>srfi-0</code> and
     ((cond-expand (feature-id body ...) more-clauses ...)
        (cond-expand more-clauses ...))))
 </pre>
-</p>
 
 <p>
 Note that the specification requires a macro-expansion time error to
@@ -320,11 +321,10 @@ RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
 PARTICULAR PURPOSE.
 
     <hr>
-    <address>Editor: <a href="mailto:srfi minus editors at srfi dot schemers dot org">Mike Sperber</a></address>
+    <address>Editor: <a href="mailto:srfi+minus+editors+at+srfi+dot+schemers+dot+org">Mike Sperber</a></address>
 <!-- Created: Tue Sep 29 19:20:08 EDT 1998 -->
 <!-- hhmts start -->
 Last modified: Sun Jan 28 13:40:26 MET 2007
 <!-- hhmts end -->
   </body>
 </html>
-
